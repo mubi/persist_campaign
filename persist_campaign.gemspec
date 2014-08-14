@@ -22,6 +22,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'rails', '>= 3.1.12'
   #spec.add_dependency 'railties', '>= 3.0.0'
   spec.add_development_dependency "bundler", "~> 1.5"
+  spec.add_development_dependency "gemfury"
   spec.add_development_dependency "rake"
   spec.add_development_dependency 'rspec-rails', '~> 2.14'
   spec.add_development_dependency 'generator_spec', '~> 0.9.2'
