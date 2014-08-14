@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Andy Dust"]
   spec.email         = ["adust@mubi.com"]
   spec.summary       = %q{Persist campaign parameters - such as utm_campaign, utm_source, etc - on Rails redirect_to.}
-  spec.description   = %q{This Rails gem allows you to persist analytics parameters through redirects. By default it 
-                          persists utm_campaign, utm_source, utm_term, utm_medium, utm_content and gclid (for Google Adwords). 
+  spec.description   = %q{This Rails gem allows you to persist analytics parameters through redirects. By default its
+                          persists utm_campaign, utm_source, utm_term, utm_medium, utm_content and gclid (for Google Adwords).
                           Additional param keys can be configured.}
   spec.homepage      = "http://github.com/mubi/ma/wiki"
 
@@ -20,7 +20,6 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_runtime_dependency 'rails', '>= 3.1.12'
-  #spec.add_dependency 'railties', '>= 3.0.0'
   spec.add_development_dependency "bundler", "~> 1.5"
   spec.add_development_dependency "gemfury"
   spec.add_development_dependency "rake"
