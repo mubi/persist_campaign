@@ -1,0 +1,438 @@
+Processing by ExampleController#foo as HTML
+  Parameters: {"foo"=>"1", "bar"=>"2"}
+Redirected to 
+Completed 500 Internal Server Error in 0ms
+Processing by ExampleController#action_with_params as HTML
+  Parameters: {"foo"=>"1", "bar"=>"2"}
+Redirected to 
+Completed 500 Internal Server Error in 0ms
+Processing by ExampleController#foo as HTML
+Redirected to 
+Completed 500 Internal Server Error in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"foo"=>"1", "bar"=>"2"}
+Redirected to http://test.host/stub/bar?bar=2&foo=1
+Completed 302 Found in 0ms
+Processing by ExampleController#action_with_params as HTML
+  Parameters: {"foo"=>"1", "bar"=>"2"}
+Redirected to http://test.host/stub/bar?alpha=betabar=2&foo=1
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+Redirected to http://test.host/stub/bar
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"foo"=>"1", "bar"=>"2"}
+Redirected to http://test.host/stub/bar?bar=2&foo=1
+Completed 302 Found in 0ms
+Processing by ExampleController#action_with_params as HTML
+  Parameters: {"foo"=>"1", "bar"=>"2"}
+Redirected to http://test.host/stub/bar?alpha=betabar=2&foo=1
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+Redirected to http://test.host/stub/bar
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"foo"=>"1", "bar"=>"2"}
+Redirected to http://test.host/stub/bar?bar=2&foo=1
+Completed 302 Found in 0ms
+Processing by ExampleController#action_with_params as HTML
+  Parameters: {"foo"=>"1", "bar"=>"2"}
+Redirected to http://test.host/stub/bar?alpha=betabar=2&foo=1
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+Redirected to http://test.host/stub/bar
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"foo"=>"1", "bar"=>"2"}
+Redirected to http://test.host/stub/bar?bar=2&foo=1
+Completed 302 Found in 0ms
+Processing by ExampleController#action_with_params as HTML
+  Parameters: {"foo"=>"1", "bar"=>"2"}
+Redirected to http://test.host/stub/bar?alpha=betabar=2&foo=1
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+Redirected to http://test.host/stub/bar
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"foo"=>"1", "bar"=>"2"}
+Redirected to http://test.host/stub/bar?bar=2&foo=1
+Completed 302 Found in 0ms
+Processing by ExampleController#action_with_params as HTML
+  Parameters: {"foo"=>"1", "bar"=>"2"}
+Redirected to http://test.host/stub/bar?alpha=betabar=2&foo=1
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+Redirected to http://test.host/stub/bar
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/stub/bar
+Completed 302 Found in 0ms
+Processing by ExampleController#action_with_params as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/stub/bar?alpha=beta
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+Redirected to http://test.host/stub/bar
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/stub/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#action_with_params as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/stub/bar?alpha=betaalpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+Redirected to http://test.host/stub/bar
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/stub/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#action_with_params as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?hello=worldalpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#action_with_params as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?hello=world&alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#action_with_params as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?hello=world&alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+Redirected to http://test.host/example/bar
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#action_with_params as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?hello=world&alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2", "colour"=>"red"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+Redirected to http://test.host/example/bar
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#action_with_params as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?hello=world&alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2", "colour"=>"red"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+Redirected to http://test.host/example/bar
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#action_with_params as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?hello=world&alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2", "colour"=>"red"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+Redirected to http://test.host/example/bar
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#action_with_params as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?hello=world&alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2", "colour"=>"red"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+Redirected to http://test.host/example/bar
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#action_with_params as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?hello=world&alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2", "colour"=>"red"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+Redirected to http://test.host/example/bar
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#action_with_params as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?hello=world&alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2", "colour"=>"red"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+Redirected to http://test.host/example/bar
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#action_with_params as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?hello=world&alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2", "colour"=>"red"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+Redirected to http://test.host/example/bar
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#action_with_params as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?hello=world&alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2", "colour"=>"red"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+Redirected to http://test.host/example/bar
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#action_with_params as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?hello=world&alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2", "colour"=>"red"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+Redirected to http://test.host/example/bar
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#action_with_params as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?hello=world&alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2", "colour"=>"red"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+Redirected to http://test.host/example/bar
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#action_with_params as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?hello=world&alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2", "colour"=>"red"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+Redirected to http://test.host/example/bar
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#action_with_params as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?hello=world&alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2", "colour"=>"red"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+Redirected to http://test.host/example/bar
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#action_with_params as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?hello=world&alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2", "colour"=>"red"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+Redirected to http://test.host/example/bar
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#action_with_params as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?hello=world&alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2", "colour"=>"red"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+Redirected to http://test.host/example/bar
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#action_with_params as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?hello=world&alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2", "colour"=>"red"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+Redirected to http://test.host/example/bar
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#action_with_params as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?hello=world&alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2", "colour"=>"red"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+Redirected to http://test.host/example/bar
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#action_with_params as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?hello=world&alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2", "colour"=>"red"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+Redirected to http://test.host/example/bar
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#action_with_params as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?hello=world&alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2", "colour"=>"red"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+Redirected to http://test.host/example/bar
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#action_with_params as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?hello=world&alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2", "colour"=>"red"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+Redirected to http://test.host/example/bar
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#action_with_params as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?hello=world&alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2", "colour"=>"red"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+Redirected to http://test.host/example/bar
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#action_with_params as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2"}
+Redirected to http://test.host/example/bar?hello=world&alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+  Parameters: {"alpha"=>"1", "beta"=>"2", "colour"=>"red"}
+Redirected to http://test.host/example/bar?alpha=1&beta=2
+Completed 302 Found in 0ms
+Processing by ExampleController#foo as HTML
+Redirected to http://test.host/example/bar
+Completed 302 Found in 0ms
