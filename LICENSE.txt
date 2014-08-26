@@ -1,4 +1,4 @@
-Copyright (c) 2014 Andy Dust
+Copyright (c) 2014 MUBI
 
 MIT License
 
