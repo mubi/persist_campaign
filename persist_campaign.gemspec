@@ -12,7 +12,8 @@ Gem::Specification.new do |spec|
   spec.description   = %q{This Rails gem allows you to persist analytics parameters through redirects. By default its
                           persists utm_campaign, utm_source, utm_term, utm_medium, utm_content and gclid (for Google Adwords).
                           Additional param keys can be configured.}
-  spec.homepage      = "http://github.com/mubi/ma/wiki"
+  spec.homepage      = "http://github.com/mubi/persist_campaign"
+  spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }

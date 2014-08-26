@@ -45,6 +45,11 @@ end
 rake
 ```
 
+## Credits
+Thanks to [ndp](http://github.com/ndp)'s [save-the-campaign](http://github.com/save-the-campaign) gem for
+providing the solution to patching Rail's redirect_to implemention. His solution is reproduced here under the
+MIT license.
+
 ## Contributing
 
 1. Fork it ( http://github.com/mubi/persist_campaign/fork )

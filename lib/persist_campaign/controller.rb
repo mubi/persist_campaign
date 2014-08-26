@@ -6,6 +6,8 @@ module PersistCampaign
     end
 
     module InstanceMethods
+      # Solution provided by ndp's save-the-campaign gem (http://github.com/ndp/save-the-campaign),
+      # reproduced here under the MIT license
       def _compute_redirect_to_location_with_persist_campaign_params(options = {})
         keys = PersistCampaign.config.keys.map(&:to_s)
         to_persist = request.params.slice(*keys)
