@@ -24,4 +24,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake"
   spec.add_development_dependency 'rspec-rails', '~> 3.4.0'
   spec.add_development_dependency 'generator_spec', '~> 0.9.3'
+  spec.add_development_dependency "appraisal"
 end
