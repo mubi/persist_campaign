@@ -10,6 +10,6 @@ module Dummy
   end
 end
 
-Rails.application.configure do
+Dummy::Application.configure do
   config.eager_load = false
 end
