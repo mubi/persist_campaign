@@ -9,7 +9,7 @@ module PersistCampaign
       # Solution provided by ndp's save-the-campaign gem (http://github.com/ndp/save-the-campaign),
       # reproduced here under the MIT license
 
-      if Rails.version >= "4.2.1"
+      if Gem::Version.new(Rails.version) >= Gem::Version.new('4.2.1')
         def _compute_redirect_to_location_with_persist_campaign_params(request, options = {})
           url = _compute_redirect_to_location_without_persist_campaign_params(request, options)
           _add_persisted_keys_to(request, url)
