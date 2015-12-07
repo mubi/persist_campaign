@@ -10,6 +10,7 @@ module Dummy
   end
 end
 
-Rails.application.configure do
+Dummy::Application.configure do
   config.eager_load = false
+  config.secret_key_base = 'abcdef123456'
 end

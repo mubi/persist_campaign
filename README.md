@@ -1,5 +1,7 @@
 # PersistCampaign
 
+[![Build Status](https://travis-ci.org/mubi/persist_campaign.svg)](https://travis-ci.org/mubi/persist_campaign)
+
 Persist campaign parameters - such as utm_campaign, utm_source, etc - on Rails redirect_to.
 
 ## Installation
