@@ -1,8 +1,7 @@
 module PersistCampaign
   module Controller
     def self.included base
-      base.send :include, InstanceMethods
-      base.alias_method_chain :_compute_redirect_to_location, :persist_campaign_params
+      base.send :prepend, InstanceMethods
     end
 
     module InstanceMethods
@@ -10,13 +9,13 @@ module PersistCampaign
       # reproduced here under the MIT license
 
       if Gem::Version.new(Rails.version) >= Gem::Version.new('4.2.1')
-        def _compute_redirect_to_location_with_persist_campaign_params(request, options = {})
-          url = _compute_redirect_to_location_without_persist_campaign_params(request, options)
+        def _compute_redirect_to_location(request, options = {})
+          url = super(request, options)
           _add_persisted_keys_to(request, url)
         end
       else
-        def _compute_redirect_to_location_with_persist_campaign_params(options = {})
-          url = _compute_redirect_to_location_without_persist_campaign_params(options)
+        def _compute_redirect_to_location(options = {})
+          url = super(options)
           _add_persisted_keys_to(request, url)
         end
       end
